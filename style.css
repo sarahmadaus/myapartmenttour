@@ -1,0 +1,55 @@
+/* Overall styling */
+body {
+    font-family: Cedarville Cursive, regular;
+    background-color: #ffdac6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #7C6A0A;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    background-color: #7C6A0A;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Using class selector */
+.description {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Using ID selector */
+#footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* The following styles are for links and their hover effect */
+nav ul li a:hover {
+    background-color: #777;
+}
