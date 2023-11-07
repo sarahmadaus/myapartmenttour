@@ -8,6 +8,7 @@ body {
 
 header {
     font-family: 'Cedarville Cursive', cursive;
+    font-size: 30px;
     background-color: #7C6A0A;
     color: #fff;
     text-align: center;
@@ -15,6 +16,8 @@ header {
 }
 
 nav ul {
+    font-family: 'Crimson Text', regular;
+    font-size: 18px;
     background-color: #7C6A0A;
     list-style-type: none;
     padding: 0;
@@ -35,8 +38,30 @@ nav ul li a {
 
 /* Using class selector */
 .description {
+    font-family: 'Sarabun', regular;
     font-size: 16px;
-    color: #666;
+    color: #BABD8D;
+}
+
+.gallery {
+    display: flex;
+}
+
+.thumbnails {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.thumbnails img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.main-image {
+    flex: 2;
 }
 
 /* Using ID selector */
