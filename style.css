@@ -2,8 +2,8 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #ffdac6;
-    margin: 0;
-    padding: 0;
+    margin: 6px;
+    padding: 20;
 }
 
 header {
@@ -12,12 +12,12 @@ header {
     background-color: #7C6A0A;
     color: #fff;
     text-align: center;
-    padding: 1em 0;
+    padding: 10px;
 }
 
 nav ul {
     font-family: 'Crimson Text', regular;
-    font-size: 18px;
+    font-size: 20px;
     background-color: #7C6A0A;
     list-style-type: none;
     padding: 0;
@@ -26,6 +26,7 @@ nav ul {
 nav ul li {
     display: inline;
     margin-right: 10px;
+    color: #BABD8D;
 }
 
 nav ul li a {
@@ -37,31 +38,24 @@ nav ul li a {
 }
 
 /* Using class selector */
+h2 {
+    font-family: 'Crimson Text', regular;
+    color: #000000
+}
+
+p {
+    font-family: 'Sarabun', regular;
+    color: #000000
+}
+
+.homepageimage {
+text-align: center;
+}
+
 .description {
     font-family: 'Sarabun', regular;
     font-size: 16px;
     color: #BABD8D;
-}
-
-.gallery {
-    display: flex;
-}
-
-.thumbnails {
-    flex: 1;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-}
-
-.thumbnails img {
-    width: 100px;
-    height: 100px;
-    cursor: pointer;
-}
-
-.main-image {
-    flex: 2;
 }
 
 /* Using ID selector */
@@ -75,7 +69,7 @@ nav ul li a {
     width: 100%;
 }
 
-/* The following styles are for links and their hover effect */
 nav ul li a:hover {
     background-color: #777;
 }
+ 
