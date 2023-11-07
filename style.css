@@ -1,16 +1,15 @@
 /* Overall styling */
 body {
-    font-family: Arial, sans-serif;
     background-color: #ffdac6;
     margin: 6px;
-    padding: 20;
+    padding: 10px;
 }
 
 header {
     font-family: 'Cedarville Cursive', cursive;
     font-size: 30px;
     background-color: #7C6A0A;
-    color: #fff;
+    color: #ffdac6;
     text-align: center;
     padding: 10px;
 }
@@ -30,10 +29,10 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #FFF;
     text-decoration: none;
     padding: 5px 10px;
-    background-color: #555;
+    background-color: #BABD8D;
     border-radius: 5px;
 }
 
@@ -50,21 +49,44 @@ p {
 
 .description {
     font-family: 'Sarabun', regular;
-    font-size: 16px;
+    font-size: 18px;
     color: #BABD8D;
 }
 
+.list-header {
+    font-family: 'Crimson Text', regular;
+    font-size: 19px;
+    color: #EB6424
+}
+
+.list-description {
+    font-family: 'Sarabun', regular;
+    font-size: 18px;
+}
+
+.gallery-text {
+    text-align: center;
+    font-family: 'Sarabun', regular;
+    font-size: 18px;
+}
+
 /* Using ID selector */
+
 #header2 {
 text-align: center;
 font-size: 20px;
 }
 
-#paragraph {
-font-size: 18px;
-}
+#header3 {
+    text-align: center;
+    font-size: 20px;
+    }
 
 #image-container {
+    text-align: center;
+    }
+
+#image-container1 {
     text-align: center;
     }
 
@@ -72,13 +94,12 @@ font-size: 18px;
     background-color: #EB6424;
     color: #fff;
     text-align: center;
-    padding: 0;
-    position: fixed;
-    bottom: 0;
+    padding: 0px;
+    bottom: 0px;
     width: 100%;
 }
 
 nav ul li a:hover {
-    background-color: #777;
+    background-color: #EB6424;
 }
  
